@@ -30,6 +30,7 @@
       padding-block: 2rem;
       gap: 1rem;
       animation: navAnimation 0.5s ease;
+      background-color: #f3ebe8;
     }
   }
 
@@ -56,10 +57,14 @@
   }
 
   &__menu {
-    margin-left: auto;
-    display: grid;
-    place-content: center;
-    transition: all 0.3s ease;
+    display: none;
+
+    @include respond(tab-port) {
+      margin-left: auto;
+      display: grid;
+      place-content: center;
+      transition: all 0.3s ease;
+    }
 
     svg {
       font-size: 1.2rem;
