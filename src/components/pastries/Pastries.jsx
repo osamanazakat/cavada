@@ -1,14 +1,13 @@
-import "./FlowerSection.scss";
 import Wrapper from "../wrapper/Wrapper";
-import Img1 from "../../assets/flower-1.png";
-import Img2 from "../../assets/flower-2.png";
-import Img3 from "../../assets/flower-3.png";
-import Img4 from "../../assets/flower-4.png";
-import Img5 from "../../assets/flower-5.png";
-import Img6 from "../../assets/flower-6.png";
-import Img7 from "../../assets/flower-7.png";
-import Img8 from "../../assets/flower-8.png";
-import Img9 from "../../assets/flower-9.png";
+import Img1 from "../../assets/pasty-1.png";
+import Img2 from "../../assets/pasty-2.png";
+import Img3 from "../../assets/pasty-3.png";
+import Img4 from "../../assets/pasty-4.png";
+import Img5 from "../../assets/pasty-5.png";
+import Img6 from "../../assets/pasty-6.png";
+import Img7 from "../../assets/pasty-7.png";
+import Img8 from "../../assets/pasty-8.png";
+import Img9 from "../../assets/pasty-9.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -34,58 +33,58 @@ const responsive = {
 
 const data = [
   {
-    name: "Brief",
+    name: "Donut",
     price: "6$",
     img: Img1,
   },
   {
-    name: "Corrected",
+    name: "Caramel bun",
     price: "10$",
     img: Img2,
   },
   {
-    name: "Raf",
+    name: "Chocolate cookies",
     price: "9$",
     img: Img3,
   },
   {
-    name: "Cappuccino",
+    name: "Cream cake",
     price: "8$",
     img: Img4,
   },
   {
-    name: "Macchiato",
+    name: "Bun with kiwi",
     price: "8$",
     img: Img5,
   },
   {
-    name: "Mocha",
+    name: "Croissant",
     price: "16$",
     img: Img6,
   },
   {
-    name: "Ice",
+    name: "Three donuts",
     price: "11$",
     img: Img7,
   },
   {
-    name: "Espresso Laccino",
+    name: "sugar bun",
     price: "16$",
     img: Img8,
   },
   {
-    name: "Irish Coffee",
+    name: "cinnamon bun",
     price: "6$",
     img: Img9,
   },
 ];
 
-const FlowerSection = () => {
+const Pastries = () => {
   return (
     <section className="flower">
       <Wrapper>
         <div className="flower__text">
-          <h2>New flowers</h2>
+          <h2>Pastries</h2>
           <p className="p-2">
             They are very soft and don't leave anywhere there is any pain. He
             likes to take care of his family. The exercise will come to
@@ -115,4 +114,4 @@ const FlowerSection = () => {
   );
 };
 
-export default FlowerSection;
+export default Pastries;

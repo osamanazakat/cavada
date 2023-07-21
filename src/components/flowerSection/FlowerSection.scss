@@ -1,7 +1,7 @@
 @import "../../styles/mixins.scss";
 
 .flower {
-  padding-block: 4rem 2rem;
+  padding-block: 4rem 9rem;
 
   &__text {
     width: 60%;
@@ -47,6 +47,12 @@
     width: 100%;
   }
 
+  &__btn {
+    width: fit-content;
+    margin-inline: auto;
+    margin-top: 3rem;
+  }
+
   .react-multi-carousel-list {
     @include respond(phone) {
       padding-bottom: 2rem;
@@ -74,6 +80,8 @@
     background-color: rgba(255, 255, 255, 0.64);
     color: #000;
     opacity: 50%;
+    min-width: 1rem;
+    min-height: 1rem;
   }
 
   .react-multiple-carousel__arrow:hover {

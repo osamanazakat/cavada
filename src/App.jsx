@@ -4,6 +4,7 @@ import Stats from "./components/stats/Stats";
 import OpenSection from "./components/openSection/OpenSection";
 import Cta from "./components/cta/Cta";
 import FlowerSection from "./components/flowerSection/FlowerSection";
+import Pastries from "./components/pastries/Pastries";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <OpenSection />
       <FlowerSection />
       <Cta />
+      <Pastries />
     </>
   );
 }

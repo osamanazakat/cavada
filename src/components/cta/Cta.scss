@@ -8,6 +8,7 @@
     background-size: cover;
     padding-block: 8rem;
     border-radius: 2rem;
+    margin-bottom: 6rem;
 
     @include respond(phone) {
       padding-bottom: 4rem;
