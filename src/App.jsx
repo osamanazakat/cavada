@@ -5,6 +5,7 @@ import OpenSection from "./components/openSection/OpenSection";
 import Cta from "./components/cta/Cta";
 import FlowerSection from "./components/flowerSection/FlowerSection";
 import Pastries from "./components/pastries/Pastries";
+import Testimonials from "./components/testimonials/Testimonials";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <FlowerSection />
       <Cta />
       <Pastries />
+      <Testimonials />
     </>
   );
 }

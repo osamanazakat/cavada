@@ -1,0 +1,67 @@
+@import "../../styles/mixins.scss";
+
+.testimonials {
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+    overflow: hidden;
+
+    @include respond(tab-port) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__left {
+    width: 100%;
+  }
+
+  &__right {
+    width: 10%;
+  }
+
+  img {
+    height: 100%;
+  }
+
+  p {
+    letter-spacing: -0.015rem;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: #374151;
+    text-align: left;
+  }
+
+  h3 {
+    letter-spacing: -0.015rem;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  span {
+    letter-spacing: 0;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
+  &__card-info {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
+  }
+
+  .carousel .slide img {
+    width: 3rem;
+  }
+
+  .carousel .control-dots .dot {
+    background: #374151;
+    width: 10px;
+    height: 10px;
+  }
+}
